@@ -1,0 +1,145 @@
+﻿[PMC Globals]|None||
+[PMC Code v5.4.1]|F3|*|6|Window,2,Fast,0,1,Input,-1,-1,1|1|Macro1
+Context=None|
+Groups=Start:1
+1|[LoopStart]|LoopStart|9|0|Loop|||||1|
+2|[LoopStart]|LoopStart|1|0|Loop|||||3|
+3|[Pause]||1|10000|Sleep|||||5|
+4|[CommentBlock]|carte|0|1|CommentBlock|||||6|
+5|Move|395, 145, 0|1|10|Click|||||9|
+6|[Pause]||1|1000|Sleep|||||11|
+7|Left Click|Left, 1, |3|20|Click|||||12|
+8|[Pause]||1|1500|Sleep|||||17|
+9|[CommentBlock]|twine head|0|1|CommentBlock|||||18|
+10|Move|634, 331, 0|1|10|Click|||twine||21|
+11|[Pause]||1|2000|Sleep|||||23|
+12|Left Click|Left, 4, |1|10|Click|||||24|
+13|[Pause]||1|2000|Sleep|||||26|
+14|[CommentBlock]|shield|0|1|CommentBlock|||||27|
+15|Move|573, 393, 0|1|10|Click|||||30|
+16|[Pause]||1|1000|Sleep|||||32|
+17|Left Click|Left, 1, |1|10|Click|||||33|
+18|[Pause]||1|1000|Sleep|||||35|
+19|[CommentBlock]|start button right yellow|0|1|CommentBlock|||||36|
+20|Move|867, 449, 0|1|10|Click|||||39|
+21|[Pause]||1|3000|Sleep|||||41|
+22|Left Click|Left, 1, |1|10|Click|||||42|
+23|[Pause]||1|2500|Sleep|||||44|
+24|[CommentBlock]|start in shield menu|0|1|CommentBlock|||||45|
+25|Move|539, 447, 0|1|10|Click|||||48|
+26|[Pause]||1|1000|Sleep|||||50|
+27|Left Click|Left, 1, |1|10|Click|||||51|
+28|[Pause]||1|20000|Sleep|||||53|
+29|[CommentBlock]|start 1:50 min|0|1|CommentBlock|||||54|
+30|Move|870, 448, 0|1|10|Click|||||57|
+31|[Pause]||1|1000|Sleep|||||59|
+32|Left Click|Left, 1, |1|10|Click|||||60|
+33|[Pause]||1|120000|Sleep|||||62|
+34|q|{q Down}|1|0|Send|||||63|
+35|[Pause]||1|4400|Sleep|||||64|
+36|q|{q Up}|1|0|Send|||||65|
+37|[Pause]||1|1000|Sleep|||||66|
+38|z|{z Down}|1|0|Send|||||67|
+39|[Pause]||1|2000|Sleep|||||68|
+40|z|{z Up}|1|0|Send|||||69|
+41|[Pause]||1|1000|Sleep|||||70|
+42|e|{e Down}|1|0|Send|||||71|
+43|[Pause]||1|2000|Sleep|||||72|
+44|e|{e Up}|1|0|Send|||||73|
+45|[Pause]||1|1000|Sleep|||||74|
+46|[CommentBlock]|endurance menu start|0|1|CommentBlock|||||75|
+47|Move|340, 325, 0|1|10|Click|||||78|
+48|[Pause]||1|1000|Sleep|||||80|
+49|Left Click|Left, 1, |1|10|Click|||||81|
+50|[Pause]||1|1000|Sleep|||||83|
+51|[CommentBlock]|start endurance button|0|1|CommentBlock|||||84|
+52|Move|468, 385, 0|1|10|Click|||||87|
+53|[Pause]||1|1000|Sleep|||||89|
+54|Left Click|Left, 1, |1|10|Click|||||90|
+55|[CommentBlock]|time endurance|0|1|CommentBlock|||||92|
+56|[Pause]||1|5010000|Sleep|||||95|
+57|Escape|{Escape}|1|0|Send|||||96|
+58|[Pause]||1|3000|Sleep|||||97|
+59|Escape|{Escape}|1|0|Send|||||98|
+60|[Pause]||1|2000|Sleep|||||99|
+61|[CommentBlock]|left endurance|0|1|CommentBlock|||||100|
+62|Move|799, 246, 0|1|10|Click|||||103|
+63|[Pause]||1|1000|Sleep|||||105|
+64|Left Click|Left, 1, |1|10|Click|||||106|
+65|[Pause]||1|1000|Sleep|||||108|
+66|[CommentBlock]|validate left|0|1|CommentBlock|||||109|
+67|Move|404, 393, 0|1|10|Click|||||112|
+68|[Pause]||1|1000|Sleep|||||114|
+69|Left Click|Left, 1, |1|10|Click|||||115|
+70|[Pause]||1|1500|Sleep|||||117|
+71|Escape|{Escape}|1|0|Send|||||118|
+72|[CommentBlock]|si jamais update crit ici|0|1|CommentBlock|||||119|
+73|[Pause]||1|100000|Sleep|||||122|
+74|c|{c}|1|0|Send|||||123|
+75|[CommentBlock]|oen chest in twine|0|1|CommentBlock|||||124|
+76|[Pause]||1|60000|Sleep|||||127|
+77|[CommentBlock]|continuer millieu|0|1|CommentBlock|||||128|
+78|Move|482, 493, 0|1|10|Click|||||131|
+79|[Pause]||1|2000|Sleep|||||133|
+80|Left Click|Left, 1, |1|10|Click|||||134|
+81|[Pause]||1|2000|Sleep|||||136|
+82|Space|{Space}|1|0|Send|||||137|
+83|[Pause]||1|2000|Sleep|||||138|
+84|[CommentBlock]|50 brume|0|1|CommentBlock|||||139|
+85|Move|475, 490, 0|1|10|Click|||||142|
+86|[Pause]||1|2000|Sleep|||||144|
+87|Left Click|Left, 1, |1|10|Click|||||145|
+88|[Pause]||1|2000|Sleep|||||147|
+89|[CommentBlock]|50 brume|0|1|CommentBlock|||||148|
+90|Move|484, 494, 0|1|10|Click|||||151|
+91|[Pause]||1|3000|Sleep|||||153|
+92|Left Click|Left, 1, |1|10|Click|||||154|
+93|[Pause]||1|5000|Sleep|||||156|
+94|[LoopEnd]|LoopEnd|1|0|Loop|||||157|
+95|[Pause]||1|2000|Sleep|||||158|
+96|Escape|{Escape}|1|0|Send|||||159|
+97|[Pause]||1|2000|Sleep|||||160|
+98|[CommentBlock]|red boutton|0|1|CommentBlock|||||161|
+99|Move|917, 228, 0|1|10|Click|||||164|
+100|[Pause]||1|2000|Sleep|||||166|
+101|Left Click|Left, 1, |1|10|Click|||||167|
+102|[Pause]||1|2000|Sleep|||||169|
+103|[CommentBlock]|left|0|1|CommentBlock|||||170|
+104|Move|400, 385, 0|1|10|Click|||||173|
+105|[Pause]||1|2000|Sleep|||||175|
+106|Left Click|Left, 1, |1|10|Click|||||176|
+107|[Pause]||1|100000|Sleep|||||178|
+108|Left Move & Click|635, 263 Left, 1|1|10|Click|||||179|
+109|[Pause]||1|2000|Sleep|||||181|
+110|Move|97, 449, 0|1|10|Click|||||182|
+111|[Pause]||1|4000|Sleep|||||184|
+112|Left Click|Left, 1, |1|10|Click|||||185|
+113|[Pause]||1|4000|Sleep|||||187|
+114|Left Click|Left, 1, |1|10|Click|||||188|
+115|[Pause]||1|40000|Sleep|||||190|
+116|[LoopEnd]|LoopEnd|1|0|Loop|||||191|
+
+[PMC Code v5.4.1]|||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Macro3
+Context=None|
+Groups=Start:1
+1|[Pause]||1|2000|Sleep|||||1|
+2|Escape|{Escape}|1|0|Send|||||2|
+3|[Pause]||1|2000|Sleep|||||3|
+4|[CommentBlock]|red boutton|0|1|CommentBlock|||||4|
+5|Move|917, 228, 0|1|10|Click|||||7|
+6|[Pause]||1|2000|Sleep|||||9|
+7|Left Click|Left, 1, |1|10|Click|||||10|
+8|[Pause]||1|2000|Sleep|||||12|
+9|[CommentBlock]|left|0|1|CommentBlock|||||13|
+10|Move|400, 385, 0|1|10|Click|||||16|
+11|[Pause]||1|2000|Sleep|||||18|
+12|Left Click|Left, 1, |1|10|Click|||||19|
+13|[Pause]||1|100000|Sleep|||||21|
+14|Left Move & Click|635, 263 Left, 1|1|10|Click|||||22|
+15|[Pause]||1|2000|Sleep|||||24|
+16|Move|97, 449, 0|1|10|Click|||||25|
+17|[Pause]||1|4000|Sleep|||||27|
+18|Left Click|Left, 1, |1|10|Click|||||28|
+19|[Pause]||1|4000|Sleep|||||30|
+20|Left Click|Left, 1, |1|10|Click|||||31|
+
